@@ -17,3 +17,4 @@ document.addEventListener("DOMContentLoaded", function () {
     alert("Explore our detailed case studies to learn more about industry applications.");
   }
 });
+console.log("Hello");
