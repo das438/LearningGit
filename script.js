@@ -1,10 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-  console.log(
-    "Welcome to Industry Insights. Explore the latest trends and expert opinions!"
-  );
+  console.log("Welcome to the Case Studies page.");
 
-  // Simple alert to greet users
+  // Example interaction: alert for user
   alert(
-    "Welcome to Industry Insights! Check out the latest trends and events."
+    "Explore our detailed case studies to learn more about industry applications."
   );
 });
