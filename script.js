@@ -1,10 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-  console.log(
-    "Welcome to Industry Insights. Explore the latest trends and expert opinions!"
-  );
+  console.log("Welcome to the Feedback page.");
 
-  // Simple alert to greet users
-  alert(
-    "Welcome to Industry Insights! Check out the latest trends and events."
-  );
+  // Form submission handling
+  document.querySelector("form").addEventListener("submit", function (event) {
+    event.preventDefault();
+    alert("Thank you for your feedback! We value your input.");
+  });
 });
