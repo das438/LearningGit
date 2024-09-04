@@ -1,17 +1,17 @@
-/* Feedback Page Styles */
+/* Combined Styles for Feedback Page and Case Studies Page */
 h1 {
   font-size: 2.5rem;
-  color: #0044cc;
   text-align: center;
   margin-top: 20px;
 }
 
-form {
+/* Styles for Feedback Page */
+.feedback-form {
   max-width: 600px;
   margin: 0 auto;
 }
 
-form textarea {
+.feedback-form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -19,7 +19,7 @@ form textarea {
   border-radius: 5px;
 }
 
-form button {
+.feedback-form button {
   width: 100%;
   padding: 10px;
   background-color: #0044cc;
@@ -29,6 +29,23 @@ form button {
   cursor: pointer;
 }
 
-form button:hover {
+.feedback-form button:hover {
   background-color: #003399;
+}
+
+/* Styles for Case Studies Page */
+section p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin: 20px;
+  color: #555;
+}
+
+section h2 {
+  color: #007acc;
+}
+
+/* General Styles */
+h1 {
+  color: #333; /* Apply a color that fits both sections */
 }
