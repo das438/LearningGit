@@ -1,38 +1,18 @@
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-header {
-  background-color: #0044cc;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-}
-
+/* Case Studies Page Styles */
 h1 {
-  margin: 0;
-  font-size: 2rem;
-}
-
-section {
-  margin: 20px;
-  padding: 10px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
+  font-size: 2.5rem;
+  color: #333;
   text-align: center;
-  padding: 10px 0;
-  background-color: #0044cc;
-  color: #fff;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+  margin-top: 20px;
+}
+
+section p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin: 20px;
+  color: #555;
+}
+
+section h2 {
+  color: #007acc;
 }
